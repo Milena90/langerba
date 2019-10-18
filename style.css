@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* FIN reset css */
+
+@font-face{
+    font-family: 'Merriweather';
+    src: url('font/Merriweather-Regular.ttf');
+}
+body{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: lighter;
+}
+#nav-top{
+    background-color:#003C5A;
+    padding: 65px 0px;
+}
+#nav-top #navbarSupportedContent a{
+    color: #66B8E0;
+    font-family: 'Open-Sans', sans-serif;
+}
+#nav-top #navbarSupportedContent a:hover{
+    color: white;
+}
+#nav-top #navbarSupportedContent li:nth-child(1) a{
+    color: white;
+}
+#nav-top .navbar-brand:hover{
+    color: white;
+    cursor: default;
+}
+#nav-top .navbar-brand{
+    font-size: 2em;
+    font-weight: bold;
+}
+#nav-top #telephone a:hover{
+    color: #fc8e44;
+    text-decoration: none;
+}
+#nav-top #telephone a{
+    color: white;
+    font-size: 1.3em;
+}
+header{
+    background-image: url("images/fond.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+header, .freemail{
+    background-color: #003C5A;
+}
+ header .navbar{
+    padding: 60px 0px;
+    color: white;
+}
+header .navbar-brand{
+    font-size: 28px;
+}
+.text-center{
+    text-align: justify;
+}
+header #navbarSupportedContent li a{
+    color:#66B8E0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+header #navbarSupportedContent li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.langerba .navbar-brand{
+    color: white;
+}
+.text-center h1{
+    font-size: 47px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.text-center p{
+    color:#66B8E0;
+    font-family: 'Open Sans' , sans-serif;
+    padding-bottom: 50px;
+}
+.text-center button,.languages button, .freemail button{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    background: #fc8e44;
+    background-image: -webkit-linear-gradient(top, #fc8e44, #fc8e44);
+    background-image: -moz-linear-gradient(top, #fc8e44, #fc8e44);
+    background-image: -ms-linear-gradient(top, #fc8e44, #fc8e44);
+    background-image: -o-linear-gradient(top, #fc8e44, #fc8e44);
+    background-image: linear-gradient(to bottom, #fc8e44, #fc8e44);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: 2px solid #fc8e44;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+} 
+.text-center button:hover,.languages button:hover, .freemail button:hover {
+    background: #f59f65;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-center button{
+    margin-bottom: 420px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("images/hamburger.svg");
+}
+.nav-link{
+    margin-right: 40px;
+}
+.languages {
+    background-color: #edf4f8;
+}
+.languages p{
+    font-family: "Open Sans", sans-serif;
+    color: #555;
+    line-height: 25px;
+    padding-bottom: 50px;
+    text-align: justify;
+    padding-right: 30px;
+}
+.languages h2{
+    font-size: 38px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.languages img{
+    width: 100%;
+    margin-top: 130px;
+}
+.languages h3{
+    font-size: 35px;
+    color: #555;
+    padding-bottom: 50px;
+}
+.reasons h4{
+    font-size: 38px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.reasons h5{
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.reasons p{
+    color: #7d7d7d;
+    line-height: 25px;
+    font-family: 'Open Sans';
+}
+.reasons .container{
+    padding-bottom: 100px;
+}
+.reasons .icones{
+    margin-right: 25px;
+}
+.book{
+    background-color: #edf4f8;  
+}
+.book h4{
+    font-size: 38px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    line-height: 50px;
+}
+.book h5{
+    font-size: 35px;
+    color: #555;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.book p{
+    color: #7d7d7d;
+    line-height: 25px;
+    font-family: 'Open Sans';
+}
+.book img{
+    padding-top:100px ;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.freemail h4{
+    font-size: 38px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.freemail p{
+    color:#66B8E0;
+    font-family: 'Open Sans' , sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.freemail input{
+    border-radius: 50px;
+    width: 470px;
+    height: 50px;
+}
+input::placeholder{
+    font-family: 'Open-Sans', sans-serif;
+}
+.course{
+    text-align: center;
+}
+.course input{
+    margin-right: 30px;
+}
+.freemail{
+    padding-bottom: 100px;
+}
+.students{
+    background-color: #e76e33;
+    padding-bottom: 100px;
+}
+.students h4{
+    font-size: 38px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+#email{
+    width: 100%;
+}
+#carouselExampleIndicators{
+    text-align: center;
+}
+#carouselExampleIndicators p{
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 40px;
+    font-style: italic;
+
+}
+#carouselExampleIndicators h5{
+    font-weight: bold;
+    color: white;
+    padding-bottom: 70px;
+}
+#carouselExampleIndicators li{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+#carouselExampleIndicators img{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#footerlangerba{
+    background-color: #272727;
+    color: white;
+}
+#footerlangerba h2{
+    font-size: 30px;
+    color: white;
+    padding:40px 0px ;
+}
+#footerlangerba #navbarSupportedContent li a{
+    color: #555;
+    font-family:'Open-Sans', sans-serif;
+}
+#hr{
+    border: 1px solid #3f3935;
+}
+#footerlangerba p{
+    font-family:'Open-Sans', sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 25px 0px;
+    color: #555;
+}
+#privacyp{
+    color: white;
+}
+#footerlangerba #navbarSupportedContent li:nth-child(1) a{
+    color:white;
+    font-family:'Open-Sans', sans-serif;
+}
+#footerlangerba #navbarSupportedContent li a:hover{
+    color: white;
+}
+#footer-top{
+    text-align: center;
+}
+#footer-top a{
+    color:#555;
+    text-decoration: none;
+    font-family:'Open-Sans', sans-serif;
+}
+#footer-top .footer-nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+#footer-top .footer-social a:hover{
+    color: #e76e33;
+}
+#footer-top .footer-nav li:nth-child(1) a{
+    color: white;
+}
